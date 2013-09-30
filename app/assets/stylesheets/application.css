@@ -1,0 +1,66 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+
+html {
+  font-family: monospace;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size:100%;
+}
+
+body {
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size:100%;
+
+}
+
+div.photo-tag {
+  width: 90px;
+  height: 90px;
+  border: 5px solid #990000;
+  float: left;
+}
+
+ul.tag-options {
+  float:left;
+  list-style:none;
+  margin: 0px;
+  padding: 0px;
+  font-weight:bold;
+  background:white;
+}
+
+ul.tag-options li {
+  border: 5px solid #990000;
+  height: 20px;
+  width: 100px;
+}
+
+/*.login {
+  position: fixed;
+  width: 100%;
+  background-color: yellow;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block;
+}
+
+*/
